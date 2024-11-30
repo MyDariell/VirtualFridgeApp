@@ -1,0 +1,99 @@
+/* STYLES FOR LOGIN SCENE */
+
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.root {
+    -fx-green: #40b759;
+    -fx-mint: #54bc84;
+    -fx-royal-blue: #052d43;
+    -fx-bluish-grey: #052d43;
+    -fx-darkest-white: #bebebe;
+    -fx-darker-white: #d9d9d9;
+    -fx-warning-yellow: #ab9c74;
+    -fx-warning-red: #bf4545;
+    -fx-text-prompt: #8ba9b5;
+}
+
+/* Vbox Style */
+.vbox-onboarding {
+    -fx-background-color: linear-gradient(to bottom right, -fx-mint, -fx-royal-blue);
+}
+
+/* Title Style */
+.title-onboard {
+    -fx-font-family: "Inter";
+    -fx-font-size: 35px;
+    -fx-text-fill: White;
+    -fx-font-weight: 900;
+}
+
+/* text-style */
+.text-onboard {
+    -fx-font-family: "Inter";
+    -fx-font-size: 25px;
+    -fx-text-fill: White;
+    -fx-font-weight: 600;
+}
+
+
+/* Default button style */
+.button-default {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-royal-blue;
+    -fx-background-color: White;
+    -fx-font-weight: 600;
+}
+
+/* Button style when clicked */
+.button-pressed {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-royal-blue;
+    -fx-opacity: 0.8;
+    -fx-font-weight: 600;
+}
+
+/* Textbox Style */
+.text-field-name {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-background-color: White;
+    -fx-prompt-text-fill: -fx-text-prompt;
+    -fx-font-weight: 600;
+}
+
+/* Error Label Style */
+.error-label-onboard {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-warning-red;
+    -fx-font-weight: 600;
+}
+
+/* Button box style */
+.button-box-style {
+    -fx-alignment: Center;
+}
+
+/* Slider Style */
+.slider-style .track {
+    -fx-opacity: 0.7;
+    -fx-pref-height: 65px;
+}
+
+.slider-style .thumb {
+     -fx-background-color: white;
+     -fx-background-radius: 50%;
+     -fx-pref-width: 0px;
+     -fx-pref-height: 0px;
+}
+
+.slider-text {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-royal-blue;
+    -fx-font-weight: 600;
+}

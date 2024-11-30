@@ -1,0 +1,5 @@
+Corn,2024-11-26
+Banana,2024-11-30
+Steak,2024-12-10
+Meatball,2024-12-30
+Chicken Thigh,2025-01-02

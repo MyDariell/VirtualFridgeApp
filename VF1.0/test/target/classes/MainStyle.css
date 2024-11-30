@@ -1,0 +1,186 @@
+/* STYLES FOR MAIN SCENE */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.root {
+    -fx-green: #40b759;
+    -fx-mint: #54bc84;
+    -fx-royal-blue: #052d43;
+    -fx-bluish-grey: #052d43;
+    -fx-darkest-white: #bebebe;
+    -fx-darker-white: #d9d9d9;
+    -fx-warning-yellow: #ab9c74;
+    -fx-warning-red: #bf4545;
+    -fx-text-prompt: #8ba9b5;
+}
+
+/* Banner Style */
+.banner-main{
+    -fx-background-color: linear-gradient(to bottom right, -fx-mint, -fx-royal-blue);
+}
+
+/* Vbox Style */
+.vbox-main {
+    -fx-background-color: linear-gradient(to bottom right, -fx-mint, -fx-royal-blue);
+    -fx-padding: 10px;
+}
+
+/* Label style */
+.label-style{
+    -fx-font-family: "Inter";
+    -fx-font-size: 25px;
+    -fx-text-fill: White;
+}
+
+.label-style-popup{
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-royal-blue;
+}
+
+/* Default style for textboxes */
+.text-field-default {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-background-color: White;
+    -fx-prompt-text-fill: -fx-text-prompt;
+    -fx-font-weight: 600;
+}
+
+/* Default style for textboxes in popup*/
+.text-field-popup {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-background-color: -fx-darker-white;
+    -fx-prompt-text-fill: -fx-text-prompt;
+    -fx-font-weight: 600;
+    -fx-text-fill: -fx-royal-blue;
+}
+
+/* Default button style */
+.button-default {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-royal-blue;
+    -fx-background-color: White;
+    -fx-font-weight: 600;
+    -fx-background-radius: 0px;
+}
+
+.button-add {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: White;
+    -fx-background-color: linear-gradient(to bottom right, -fx-mint, -fx-royal-blue);
+    -fx-font-weight: 600;
+}
+
+.button-add-pressed {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-royal-blue;
+    -fx-background-color: #cccccc;
+    -fx-font-weight: 600;
+}
+
+.button-delete {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: White;
+    -fx-background-color: Red;
+    -fx-font-weight: 600;
+}
+
+.button-delete-pressed {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: Red;
+    -fx-background-color: White;
+    -fx-font-weight: 600;
+}
+
+/* Button style when clicked */
+.button-pressed {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: linear-gradient(to bottom right,#7cb79b, #0d2b3d);
+    -fx-background-color: White;
+    -fx-border-color: linear-gradient(to bottom right,#7cb79b, #0d2b3d);
+    -fx-background-radius: 3px;
+    -fx-border-radius: 3px;
+}
+
+/* Style for the listview */
+.list-view {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-background-color: transparent;
+}
+
+.list-view-placeholder {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+
+/* Style for ListView cells */
+.list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: -fx-royal-blue;
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}
+
+/* Style for hovered cells */
+.list-cell:hover {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-background-color: #cccccc;
+    -fx-text-fill: -fx-royal-blue;
+}
+
+/* Style for selected cells */
+.list-cell:selected {
+    -fx-font-family: "Inter";
+    -fx-font-size: 20px;
+    -fx-background-color: #cccccc;
+    -fx-text-fill: -fx-royal-blue;
+}
+
+/* Style for labels */
+.label-message {
+    -fx-text-fill: red;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.label-cell {
+    -fx-text-fill: -fx-royal-blue;
+    -fx-font-size: 20px;
+}
+
+.label-cell-near-expiry {
+    -fx-text-fill: Orange;
+    -fx-font-size: 20px;
+}
+
+.label-cell-expired{
+    -fx-text-fill: Red;
+    -fx-font-size: 20px;
+}
+
+/* popup-style */
+.popup-style {
+    -fx-background-color: White;
+}
+
+.popup-style-delete {
+    -fx-background-color: Transparent;
+}
+
+/* cell popup-style */
+.popup-cell-style {
+    -fx-background-color: #bf4544;
+    -fx-padding: 10;
+}
